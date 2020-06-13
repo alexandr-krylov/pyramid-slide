@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>pyramid-slide</title>
+</head>
+<body>
+<h1>Pyramid slide</h1>
+<section>
+    <div id="controls">
+        <label for="brick-symbol">Brick Symbol</label>
+        <select id="brick-symbol">
+            <option value="#">#</option>
+            <option value="@">@</option>
+            <option value="X">X</option>
+            <option value="$">$</option>
+        </select>
+        <label for="pyramid-height">How high?</label>
+        <input id="pyramid-height" type="range" min="1" max="20" step="1" value="8">
+        <span id="pyramid-height-show">8</span>
+    </div>
+    <div id="pyramid">
+    </div>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
